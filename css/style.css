@@ -1,0 +1,59 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  background-image: url(../images/body.png);
+}
+
+.header {
+  background: #ffd338;
+}
+
+.header .menu ul li a {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff !important;
+  padding: 0 17px !important;
+  border-radius: 20px;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.header .menu ul li a:hover {
+  background: #f05c5c;
+}
+
+.btn-custom {
+  color: #fff;
+}
+
+.btn-custom .icon-custom {
+  color: #fff;
+}
+
+.btn-custom:focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem #f05c5c;
+          box-shadow: 0 0 0 0.2rem #f05c5c;
+}
+
+.btn-custom:hover {
+  color: #f05c5c;
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner .b_text h1 {
+  font-weight: 700;
+  color: #1ec0ff;
+  text-align: center;
+}
+
+.banner .b_p {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

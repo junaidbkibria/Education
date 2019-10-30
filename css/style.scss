@@ -1,0 +1,72 @@
+// font-family: 'Lato', sans-serif;
+// font-family: 'Dosis', sans-serif;
+// font-family: 'Sniglet', cursive;
+body{
+    font-family: 'Dosis', sans-serif;
+    background-image: url(../images/body.png);
+    
+}
+// header starts
+.header{
+    background: #ffd338;
+    .menu{
+        
+        ul{
+            li{
+                a{
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: #fff !important;
+                    padding: 0 17px !important;
+                    border-radius: 20px;
+                    transition: .5s ease;
+                    &:hover{
+                        background: #f05c5c;
+                    }
+                }
+            }
+        }
+    }
+}
+.btn-custom{
+    color: #fff;
+    .icon-custom{
+        color: #fff;
+    }
+}
+.btn-custom:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #f05c5c;
+}
+
+.btn-custom:hover {
+    color: #f05c5c;
+    text-decoration: none;
+}
+// header ends
+// banner begins
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .b_text{
+        
+        h1{
+            font-weight: 700;
+            color: #1ec0ff;
+            text-align: center;
+        }
+    }
+    .b_p{
+        text-align: center;
+        p{
+
+        }
+        i{
+
+        }
+    }
+}
+// banner ends
+

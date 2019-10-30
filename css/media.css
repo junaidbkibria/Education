@@ -1,0 +1,123 @@
+
+@media (max-width: 575.98px) { 
+    /* header start */
+    
+    .menu ul li a{
+        text-align: right;
+    }
+    .logo{
+        width: 160px;
+    }
+    /* header endss */
+    /* banner starts */
+    .b_text h1{
+        margin-top: 120px;
+        margin-bottom: 160px;
+        font-size: 35px;
+        
+    }
+    /* banner ends */
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .menu ul li a{
+        text-align: right;
+    }
+    .btn-custom{
+        justify-content: right !important;
+    }
+        .custom-dropdown{
+            left: 0 !important;
+            right: -350px;
+        }
+        .custom-width{
+            width: 400px;
+        }
+        .submit-custom{
+            background: #f05c5c;
+        }
+         /* banner starts */
+    .b_text h1{
+        margin-top: 170px;
+        margin-bottom: 190px;
+        font-size: 40px;
+        
+    }
+    /* banner ends */
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .menu ul li a{
+        text-align: right;
+    }
+    .btn-custom{
+        justify-content: right !important;
+    }
+    .custom-dropdown{
+        left: 0 !important;
+        right: -350px;
+    }
+    .custom-width{
+        width: 400px;
+    }
+    .submit-custom{
+        background: #f05c5c;
+    }
+     /* banner starts */
+     .b_text h1{
+        margin-top: 200px;
+        margin-bottom: 220px;
+        font-size: 48px;
+        
+    }
+    /* banner ends */
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /* header startsss */
+    .custom-dropdown{
+        right: 0 !important;
+        left: -350px;
+    }
+    .custom-width{
+        width: 400px;
+    }
+    .submit-custom{
+        background: #f05c5c;
+    }
+    /* header ends */
+     /* banner starts */
+     .b_text h1{
+        margin-top: 250px;
+        margin-bottom: 270px;
+        font-size: 48px;
+        
+    }
+    /* banner ends */
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /* header startsss */
+    .custom-dropdown{
+        right: 0 !important;
+        left: -350px;
+    }
+    .custom-width{
+        width: 400px;
+    }
+    .submit-custom{
+        background: #f05c5c;
+    }
+    /* header ends */
+     /* banner starts */
+     .b_text h1{
+        margin-top: 300px;
+        margin-bottom: 330px;
+        font-size: 48px;
+        
+    }
+    /* banner ends */
+ }
